@@ -1,12 +1,12 @@
-# Checkmk extension for ...
+# Checkmk extension for Ruckus SmartZone WiFi
 
-![build](https://github.com/jiuka/checkmk_template/workflows/build/badge.svg)
-![flake8](https://github.com/jiuka/checkmk_template/workflows/Lint/badge.svg)
-![pytest](https://github.com/jiuka/checkmk_template/workflows/pytest/badge.svg)
+![build](https://github.com/scsitteam/checkmk_smartzone/workflows/build/badge.svg)
+![flake8](https://github.com/scsitteam/checkmk_smartzone/workflows/Lint/badge.svg)
+![pytest](https://github.com/scsitteam/checkmk_smartzone/workflows/pytest/badge.svg)
 
 ## Description
 
-This is a template to develop Checkmk Extensions
+Checks the Ruckus SmartZone Controller and its APs and WLANs.
 
 ## Development
 
