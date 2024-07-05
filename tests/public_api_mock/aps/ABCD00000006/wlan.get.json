@@ -1,0 +1,41 @@
+{
+    "success": true,
+    "error": null,
+    "data": {
+        "totalCount": 1,
+        "rawDataTotalCount": 0,
+        "hasMore": false,
+        "list": [
+            {
+                "key": "AB:CD:00:40:00:06",
+                "bssid": "AB:CD:00:40:00:06",
+                "apMac": "AB:CD:00:00:00:06",
+                "radioId": "0",
+                "radioType": "11b/g/n/ax",
+                "rxBytes": "530656",
+                "ssid": "None",
+                "totalNumClients": "0",
+                "txBytes": "9702674",
+                "wlanId": "0",
+                "authmethod": "OPEN",
+                "wsgWlanId": "11",
+                "wlanType": 0,
+                "apMacAddress": "AB:CD:00:00:00:06",
+                "columns": {
+                    "rxBytes": "530656",
+                    "txBytes": "9702674",
+                    "wsgWlanId": "11",
+                    "bssid": "AB:CD:00:40:00:06",
+                    "radioId": "0",
+                    "authmethod": "OPEN",
+                    "apMac": "AB:CD:00:00:00:06",
+                    "totalNumClients": "0",
+                    "ssid": "None",
+                    "wlanId": "0",
+                    "radioType": "11b/g/n/ax"
+                },
+                "nullValueColumnNames": []
+            }
+        ]
+    }
+}

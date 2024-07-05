@@ -118,7 +118,16 @@
         "ipsecTxIdleTime": 0,
         "ipsecTxPkts": 0,
         "monitoringEnabled": false,
-        "ipType": "IPV4"
+        "ipType": "IPV4",
+        "cumulativeTx24G": 9696427,
+        "cumulativeTx5G": 230,
+        "cumulativeTx6G": 0,
+        "cumulativeRx24G": 530656,
+        "cumulativeRx5G": 605,
+        "cumulativeRx6G": 0,
+        "cumulativeTxRx24G": 10227083,
+        "cumulativeTxRx5G": 835,
+        "cumulativeTxRx6G": 0
       },
       {
         "deviceName": "AP002",
@@ -235,7 +244,16 @@
         "ipsecTxIdleTime": 0,
         "ipsecTxPkts": 0,
         "monitoringEnabled": false,
-        "ipType": "IPV4"
+        "ipType": "IPV4",
+        "cumulativeTx24G": 9696427,
+        "cumulativeTx5G": 230,
+        "cumulativeTx6G": 0,
+        "cumulativeRx24G": 530656,
+        "cumulativeRx5G": 605,
+        "cumulativeRx6G": 0,
+        "cumulativeTxRx24G": 10227083,
+        "cumulativeTxRx5G": 835,
+        "cumulativeTxRx6G": 0
       },
       {
         "deviceName": "AP005",
@@ -349,7 +367,16 @@
         "ipsecTxIdleTime": 0,
         "ipsecTxPkts": 0,
         "monitoringEnabled": false,
-        "ipType": "IPV4"
+        "ipType": "IPV4",
+        "cumulativeTx24G": 9696427,
+        "cumulativeTx5G": 230,
+        "cumulativeTx6G": 0,
+        "cumulativeRx24G": 530656,
+        "cumulativeRx5G": 605,
+        "cumulativeRx6G": 0,
+        "cumulativeTxRx24G": 10227083,
+        "cumulativeTxRx5G": 835,
+        "cumulativeTxRx6G": 0
       },
       {
         "deviceName": "AP006",
@@ -463,7 +490,16 @@
         "ipsecTxIdleTime": 0,
         "ipsecTxPkts": 0,
         "monitoringEnabled": false,
-        "ipType": "IPV4"
+        "ipType": "IPV4",
+        "cumulativeTx24G": 9696427,
+        "cumulativeTx5G": 230,
+        "cumulativeTx6G": 0,
+        "cumulativeRx24G": 530656,
+        "cumulativeRx5G": 605,
+        "cumulativeRx6G": 0,
+        "cumulativeTxRx24G": 10227083,
+        "cumulativeTxRx5G": 835,
+        "cumulativeTxRx6G": 0
       },
       {
         "deviceName": "AP007",
@@ -577,7 +613,16 @@
         "ipsecTxIdleTime": 0,
         "ipsecTxPkts": 0,
         "monitoringEnabled": false,
-        "ipType": "IPV4"
+        "ipType": "IPV4",
+        "cumulativeTx24G": 9696427,
+        "cumulativeTx5G": 230,
+        "cumulativeTx6G": 0,
+        "cumulativeRx24G": 530656,
+        "cumulativeRx5G": 605,
+        "cumulativeRx6G": 0,
+        "cumulativeTxRx24G": 10227083,
+        "cumulativeTxRx5G": 835,
+        "cumulativeTxRx6G": 0
       },
       {
         "deviceName": "AP008",
@@ -691,7 +736,16 @@
         "ipsecTxIdleTime": 0,
         "ipsecTxPkts": 0,
         "monitoringEnabled": false,
-        "ipType": "IPV4"
+        "ipType": "IPV4",
+        "cumulativeTx24G": 9696427,
+        "cumulativeTx5G": 230,
+        "cumulativeTx6G": 0,
+        "cumulativeRx24G": 530656,
+        "cumulativeRx5G": 605,
+        "cumulativeRx6G": 0,
+        "cumulativeTxRx24G": 10227083,
+        "cumulativeTxRx5G": 835,
+        "cumulativeTxRx6G": 0
       },
       {
         "deviceName": "AP009",
@@ -805,7 +859,16 @@
         "ipsecTxIdleTime": 0,
         "ipsecTxPkts": 0,
         "monitoringEnabled": false,
-        "ipType": "IPV4"
+        "ipType": "IPV4",
+        "cumulativeTx24G": 9696427,
+        "cumulativeTx5G": 230,
+        "cumulativeTx6G": 0,
+        "cumulativeRx24G": 530656,
+        "cumulativeRx5G": 605,
+        "cumulativeRx6G": 0,
+        "cumulativeTxRx24G": 10227083,
+        "cumulativeTxRx5G": 835,
+        "cumulativeTxRx6G": 0
       },
       {
         "deviceName": "AP054",
@@ -919,7 +982,16 @@
         "ipsecTxIdleTime": 0,
         "ipsecTxPkts": 0,
         "monitoringEnabled": false,
-        "ipType": "IPV4"
+        "ipType": "IPV4",
+        "cumulativeTx24G": 9696427,
+        "cumulativeTx5G": 230,
+        "cumulativeTx6G": 0,
+        "cumulativeRx24G": 530656,
+        "cumulativeRx5G": 605,
+        "cumulativeRx6G": 0,
+        "cumulativeTxRx24G": 10227083,
+        "cumulativeTxRx5G": 835,
+        "cumulativeTxRx6G": 0
       },
       {
         "deviceName": "AP055",

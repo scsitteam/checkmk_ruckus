@@ -1,0 +1,35 @@
+{
+    "totalCount": 2,
+    "hasMore": false,
+    "firstIndex": 0,
+    "list": [
+      {
+        "zoneId": "f77a8816-3049-40cd-8484-82919275ddc3",
+        "zoneName": "Default Zone",
+        "meshSSID": null,
+        "totalAPs": 0,
+        "discoveryAPs": 0,
+        "provisionedAPs": 0,
+        "connectedAPs": 0,
+        "disconnectedAPs": 0,
+        "rebootingAPs": 0,
+        "connectedRootAPs": 0,
+        "disconnectedRootAPs": 0,
+        "rebootingRootAPs": 0,
+        "connectedMeshAPs": 0,
+        "disconnectedMeshAPs": 0,
+        "rebootingMeshAPs": 0,
+        "connectedeMeshAPs": 0,
+        "disconnectedeMeshAPs": 0,
+        "rebootingeMeshAPs": 0,
+        "connectedDownMeshAPs": 0,
+        "disconnectedDownMeshAPs": 0,
+        "rebootingDownMeshAPs": 0,
+        "connectedMeshDisabledAPs": 0,
+        "disconnectedMeshDisabledAPs": 0,
+        "clients": 0,
+        "apFirmwareVersion": "5.1.0.99.144",
+        "meshEnabled": false
+      }
+    ]
+  }

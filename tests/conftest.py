@@ -26,8 +26,9 @@ import pytest
 import requests
 from urllib.parse import urlparse
 
-BASEURL='https://vsz:8443/wsg/api/public/'
-VERSION='vcmk_test'
+BASEURL = 'https://vsz:8443/wsg/api/public/'
+VERSION = 'vcmk_test'
+
 
 @pytest.fixture
 def public_api(requests_mock):

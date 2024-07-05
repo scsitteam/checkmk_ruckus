@@ -1,0 +1,57 @@
+{
+    "rawDataTotalCount": 3,
+    "totalCount": 3,
+    "hasMore": false,
+    "firstIndex": 0,
+    "list": [
+      {
+        "id": "Alarm_951_00:0C:29:93:00:00",
+        "insertionTime": 1487670600858,
+        "alarmType": "Memory threshold exceeded",
+        "alarmCode": 951,
+        "alarmState": "Cleared",
+        "severity": "Critical",
+        "activity": "Memory threshold [95.15%] exceeded on control plane [ui206-C].",
+        "acknowledged": "No",
+        "ackTime": null,
+        "ackUser": null,
+        "category": "Control_Plane",
+        "clearComment": "Auto Cleared",
+        "clearTime": 1487671200984,
+        "clearUser": "System"
+      },
+      {
+        "id": "Alarm_303_94:F6:65:3C:93:C0",
+        "insertionTime": 1487666250201,
+        "alarmType": "AP disconnected",
+        "alarmCode": 303,
+        "alarmState": "Cleared",
+        "severity": "Major",
+        "activity": "AP [RuckusAP@94:F6:65:3C:93:C0] disconnected.",
+        "acknowledged": "Yes",
+        "ackTime": 1487735042472,
+        "ackUser": "admin",
+        "category": "AP",
+        "clearComment": "test bulk clear",
+        "clearTime": 1487735127383,
+        "clearUser": "admin"
+      },
+      {
+        "id": "AVpG_G6RyxBWfBW4KnsQ",
+        "insertionTime": 1487249632908,
+        "alarmType": "AP rebooted by system",
+        "alarmCode": 302,
+        "alarmState": "Cleared",
+        "severity": "Major",
+        "activity": "AP [RuckusAP@94:F6:65:3C:93:C0] rebooted by the system because of [application, wsgclient, reboot due to firmware change ].",
+        "acknowledged": "Yes",
+        "ackTime": 1487735042514,
+        "ackUser": "admin",
+        "category": "AP",
+        "clearComment": "test bulk clear",
+        "clearTime": 1487735127377,
+        "clearUser": "admin"
+      }
+    ],
+    "extra": null
+  }
