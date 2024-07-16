@@ -105,6 +105,25 @@ metric_noise_6 = metrics.Metric(
     color=metrics.Color.LIGHT_BROWN,
 )
 
+metric_eirp_24 = metrics.Metric(
+    name='eirp_24',
+    title=Title('Effective radiated power 2.4G'),
+    unit=metrics.Unit(metrics.DecimalNotation("W")),
+    color=metrics.Color.DARK_ORANGE,
+)
+metric_eirp_5 = metrics.Metric(
+    name='eirp_5',
+    title=Title('Effective radiated power 5G'),
+    unit=metrics.Unit(metrics.DecimalNotation("W")),
+    color=metrics.Color.ORANGE,
+)
+metric_eirp_6 = metrics.Metric(
+    name='eirp_6',
+    title=Title('Effective radiated power 6G'),
+    unit=metrics.Unit(metrics.DecimalNotation("W")),
+    color=metrics.Color.LIGHT_ORANGE,
+)
+
 graph_clients = graphs.Graph(
     name='clients',
     title=Title('Clients'),
@@ -132,6 +151,14 @@ graph_noise = graphs.Graph(
     minimal_range=graphs.MinimalRange(-100, -75),
     simple_lines=['noise_24', 'noise_5', 'noise_6'],
     optional=['noise_24', 'noise_5', 'noise_6'],
+)
+
+graph_eirp = graphs.Graph(
+    name='eirp',
+    title=Title('Effective radiated power'),
+    minimal_range=graphs.MinimalRange(0, 10),
+    simple_lines=['eirp_24', 'eirp_5', 'eirp_6'],
+    optional=['eirp_24', 'eirp_5', 'eirp_6'],
 )
 
 perfometer_clients = perfometers.Perfometer(

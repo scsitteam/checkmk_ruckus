@@ -51,6 +51,7 @@ APPROPERTIES = (
     'channel24gValue', 'channel50gValue', 'channel6gValue',
     'cumulativeTx24G', 'cumulativeTx5G', 'cumulativeTx6G',
     'cumulativeRx24G', 'cumulativeRx5G', 'cumulativeRx6G',
+    'eirp24G', 'eirp50G', 'eirp6G',
 )
 WLANPROPERTIES = (
     'zoneName', 'name', 'ssid', 'availability',
@@ -63,11 +64,7 @@ APWLANPROPERTIES = (
     'rxBytes', 'txBytes', 'radioId',
 )
 RADIOPROPERTIES = (
-    'radioId', 'busy', 'channel', 'clientCount',
-    'deployedWlanNum', 'maxWlanNum',
-    'rxBytes', 'rxMcastDataBytes', 'rxFrames', 'rxMulticast', 'rxRadioFrames',
-    'rx', 'tx', 'txFrames',
-    'drop', 'retry',
+    'radioId', 'txPower',
 )
 
 
@@ -192,6 +189,14 @@ class AgentSmartZone:
                         if alarm['alarmState'] == 'Cleared':
                             continue
                         section.append_json(alarm)
+
+                with SectionWriter('smartzone_ap_radio') as section:
+                    for radio in self.api.retrive_list(f"aps/{ap['apMac']}/radios"):
+                        section.append_json({
+                            key: radio.get(key)
+                            for key in RADIOPROPERTIES
+                            if key in radio
+                        })
 
                 with SectionWriter('smartzone_ap_wlan') as section:
                     for wlan in self.api.retrive_list(f"aps/{ap['apMac']}/wlan"):

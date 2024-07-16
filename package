@@ -17,7 +17,7 @@
     },
     'name': 'smartzone',
     'title': u'Ruckus SmartZone',
-    'version': '2.3.0-6',
+    'version': '2.3.0-7',
     'version.min_required': '2.3.0p3',
     'version.packaged': '2.4.0'
 }

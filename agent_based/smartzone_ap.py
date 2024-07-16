@@ -110,18 +110,21 @@ def check_smartzone_ap(
         yield Metric(name='latency_24', value=ap['latency24G'])
         yield Metric(name='noise_24', value=ap['noise24G'])
         yield Metric(name='clients_24', value=ap['numClients24G'])
+        yield Metric(name='eirp_24', value=ap['eirp24G'])
 
     if ap['noise5G']:
         yield Metric(name='airtime_5', value=ap['airtime5G'], boundaries=(0, 100))
         yield Metric(name='latency_5', value=ap['latency50G'])
         yield Metric(name='noise_5', value=ap['noise5G'])
         yield Metric(name='clients_5', value=ap['numClients5G'])
+        yield Metric(name='eirp_5', value=ap['eirp50G'])
 
     if ap['noise6G']:
         yield Metric(name='airtime_6', value=ap['airtime6G'], boundaries=(0, 100))
         yield Metric(name='latency_6', value=ap['latency6G'])
         yield Metric(name='noise_6', value=ap['noise6G'])
         yield Metric(name='clients_6', value=ap['numClients6G'])
+        yield Metric(name='eirp_6', value=ap['eirp6G'])
 
     value_store = get_value_store()
     for key, label, metric_name in (
